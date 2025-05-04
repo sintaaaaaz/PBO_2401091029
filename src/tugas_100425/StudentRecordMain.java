@@ -2,20 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tugas_sinta_040325;
+package tugas_100425;
 
 /**
  *
  * @author user
  */
-public class Tugas4113 {
+public class StudentRecordMain {
     public static void main(String[] args){
-      int a = 10;
-      int b = 20;
-      int c = 30;
-        
-        int nilaiTerbesar = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
-        System.out.println("Nilai terbesar dari 3 bilangan adalah: " + nilaiTerbesar);
+        Academic academic = new Academic();
+        System.out.println("Nama:" + academic.getName());
+        System.out.println("Course:" + academic.course);
+        System.out.println("Grade:" + academic.grade);
     }
-    
 }

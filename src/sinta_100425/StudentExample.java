@@ -2,17 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tugas_sinta_040325;
+package sinta_100425;
 
 /**
  *
  * @author user
  */
-public class Tugas4114 {
+public class StudentExample {
     public static void main(String[] args){
-       // ((( a / b ) * c ) ^d) - e + f - (g * h) + i;
-       // (((3 * 10) *2) /15) -2 + ((4 ^ 2) ^2);
-       // (((r ^ 5) *t) /u) -v + (w ^ x) -y++;
+        Student student = new Student();
+        System.out.println("Nama:" + student.getName());
+        System.out.println("Kota:" + student.address);
     }
-    
 }
