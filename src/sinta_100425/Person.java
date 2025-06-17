@@ -40,6 +40,7 @@ public class Person {
     }
     
     public String getAddress(){
+        System.out.println("Person: geAddress");
         return address;
     }
     
